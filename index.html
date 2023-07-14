@@ -38,24 +38,26 @@
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select>
+
+      <select id="city">
         <option value="">Select a city</option>
-        <option value="london">London</option>
-        <option value="dubai">Dubai</option>
-        <option value="tyoko">Tokyo</option>
+        <option value="Europe/London">London</option>
+        <option value="Asia/Dubai">Dubai</option>
+        <option value="Africa/Cairo">Cairo</option>
       </select>
-      <div class="row">
-        <div class="col-4" city id="new-york">
+
+      <div class="row" id="cities">
+        <div class="col-4 city" id="new-york">
           <h2>New York</h2>
           <div class="time"></div>
           <div class="date"></div>
         </div>
-        <div class="col-4" city id="paris">
+        <div class="col-4 city" id="paris">
           <h2>Paris</h2>
           <div class="time"></div>
           <div class="date"></div>
         </div>
-        <div class="col-4" city id="sydney">
+        <div class="col-4 city" id="sydney">
           <h2>Sydney</h2>
           <div class="time"></div>
           <div class="date"></div>
