@@ -1,1 +1,54 @@
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover, contain;
+}
 
+.container {
+  max-width: 800px;
+  margin: 60px auto 10px auto;
+  border: 6px double #8a2ffe;
+  border-radius: 8px;
+  background-color: #fff;
+  opacity: 0.65;
+  box-shadow: 10px 10px 18px 10px rgba(0, 0, 0, 0.2);
+  font-family: "Bungee", cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-family: "Bungee Shade", cursive;
+  padding: 10px;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: "Bungee", cursive;
+}
+
+select {
+  display: block;
+  margin: 10px auto;
+  width: 520px;
+  border-radius: 6px;
+  border-width: medium;
+  padding: 5px;
+  font-size: 18px;
+  font-family: "Bungee", cursive;
+  text-align: center;
+  vertical-align: middle;
+}
+.city {
+  color: #000000;
+  padding: 10px;
+}
+.city .time {
+  font-size: 20px;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-family: "Bungee Hairline", cursive;
+  text-decoration: none;
+}
