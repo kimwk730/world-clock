@@ -25,6 +25,13 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"
+      integrity="sha512-ae875b70oSplY0gKnsUZyoB0F2ywdOn3pSKP5dBV6ZdBmtr5D54VYKXbMamjnGNA1IpvyF6v0tHuQUZv6rtiAw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>World Clock ⏰</title>
   </head>
@@ -38,20 +45,20 @@
         <option value="tyoko">Tokyo</option>
       </select>
       <div class="row">
-        <div class="col-4" city>
+        <div class="col-4" city id="new-york">
           <h2>New York</h2>
-          <div class="time">3:00 PM</div>
-          <div class="date">July 7, 2023</div>
+          <div class="time"></div>
+          <div class="date"></div>
         </div>
-        <div class="col-4" city>
+        <div class="col-4" city id="paris">
           <h2>Paris</h2>
-          <div class="time">3:00 PM</div>
-          <div class="date">July 7, 2023</div>
+          <div class="time"></div>
+          <div class="date"></div>
         </div>
-        <div class="col-4" city>
+        <div class="col-4" city id="sydney">
           <h2>Sydney</h2>
-          <div class="time">3:00 PM</div>
-          <div class="date">July 7, 2023</div>
+          <div class="time"></div>
+          <div class="date"></div>
         </div>
       </div>
     </div>
