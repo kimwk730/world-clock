@@ -1,17 +1,15 @@
 body {
-  background-image: url("images/background.jpg");
+  background-image: url("images/nasa.jpg");
   background-size: cover, contain;
 }
 
 .container {
   max-width: 800px;
   margin: 60px auto 10px auto;
-  border: 6px double #8a2ffe;
+  border: 2px double #f7d83d;
   border-radius: 8px;
-  background-color: #fff;
-  opacity: 0.65;
-  box-shadow: 10px 10px 18px 10px rgba(0, 0, 0, 0.2);
   font-family: "Bungee", cursive;
+  color: #fff;
   font-weight: bold;
   text-align: center;
   padding: 30px;
@@ -24,31 +22,49 @@ h1 {
 }
 
 h2 {
-  font-family: "Bungee", cursive;
+  font-family: "Bungee Outline", cursive;
 }
 
 select {
   display: block;
-  margin: 10px auto;
+  margin: 30px auto;
   width: 520px;
+  color: #f7d83d;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 2px double #f7d83d;
   border-radius: 6px;
-  border-width: medium;
   padding: 5px;
   font-size: 18px;
-  font-family: "Bungee", cursive;
+  font-family: "Patrick Hand SC", cursive;
   text-align: center;
   vertical-align: middle;
 }
 .city {
-  color: #000000;
-  padding: 10px;
+  padding: 20px;
+  line-height: 3;
 }
 .city .time {
+  font-size: 30px;
+}
+.city .date {
   font-size: 20px;
 }
+
 footer {
   color: white;
   text-align: center;
-  font-family: "Bungee Hairline", cursive;
+  font-size: 18px;
+  font-family: "Patrick Hand SC", cursive;
   text-decoration: none;
+}
+.footer-logo {
+  width: 25px;
+  transition-duration: 0.2s;
+}
+.footer-logo:hover {
+  width: 35px;
+}
+.homepage {
+  font-size: 18px;
+  font-family: "Patrick Hand SC", cursive;
 }
